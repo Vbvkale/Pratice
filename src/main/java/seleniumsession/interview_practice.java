@@ -13,6 +13,9 @@ public class interview_practice {
 
 		driver.get("https://www.amazon.in/");
 		
+		driver.manage().window().maximize();
+		
+		
 		driver.findElement(By.xpath("//input[@placeholder = \"Search Amazon.in\"]")).sendKeys("Samsung Mobile");
 		
 		driver.findElement(By.xpath("//input[@id=\"nav-search-submit-button\"]")).click();

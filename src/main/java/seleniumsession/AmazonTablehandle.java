@@ -2,6 +2,7 @@ package seleniumsession;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -38,6 +39,9 @@ public class AmazonTablehandle {
 			 * for(WebElement e : mobilelist){ List<String> mobstr = new ArrayList();
 			 * mobstr.add(e.getText()); }
 			 */
+			
+			
+			
 			
 			
 			while(true)

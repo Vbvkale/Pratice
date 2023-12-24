@@ -1,11 +1,47 @@
 package seleniumsession;
 
-import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Largest_number {
 	static int max;
 
 	public static void main(String[] args) {
+		
+		WebDriver driver = new ChromeDriver();
+		
+		JavascriptExecutor js =(JavascriptExecutor)driver;
+		
+			
+	
+		
+		
+		List<Object> raw = new ArrayList<>();
+		
+		raw.add(12);
+		
+		raw.add("vaibhav");
+
+		raw.add(13);
+
+		raw.add(14);
+
+		raw.add(16);
+		
+		raw.size();
+		
+		
+		for (Object e : raw) {
+			
+			System.out.println(e);
+		}
+		
+		System.out.println(raw.size());
+	
 
 		largestno();
 		System.out.println("Maxmum no in array is : " + max);

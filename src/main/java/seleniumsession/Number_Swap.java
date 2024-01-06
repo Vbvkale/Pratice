@@ -6,6 +6,8 @@ public class Number_Swap {
 	
 	public static void swap(int x, int y) {
 		
+	
+		
 		System.out.println( "Value before swaping : " + " X :"+ x +" Y : "+ y );
 		
 		x = x+y; // x = 2+3. x = 5 

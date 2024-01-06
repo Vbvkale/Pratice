@@ -32,6 +32,10 @@ static WebDriver driver;
 		
 		
 		
+		Actions action = new Actions(driver);
+		
+		
+		
 		Actions ac =  new Actions(driver);
 		
 		ac.moveToElement(menu).perform();

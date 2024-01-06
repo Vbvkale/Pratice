@@ -20,6 +20,8 @@ static WebDriver driver;
 		
 		driver.manage().window().maximize();
 		
+		
+		
 		//Thread.sleep(10000);
 		
 		WebElement email = driver.findElement(By.id("input-email"));

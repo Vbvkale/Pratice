@@ -20,7 +20,7 @@ public class Largest_number {
 	
 		
 		
-		List<Object> raw = new ArrayList<>();
+		List<Object> raw = new ArrayList();
 		
 		raw.add(12);
 		

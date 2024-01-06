@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class elementutil {
 
-	private WebDriver driver;
+	public WebDriver driver;
 
 	public elementutil(WebDriver driver) {
 	

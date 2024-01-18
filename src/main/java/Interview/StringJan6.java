@@ -18,7 +18,14 @@ public class StringJan6 {
 		
 		
 		
-		
+	
+			String[] strings = new String[2];
+			
+			String str;
+			System.out.println(str);
+			System.out.println(strings);
+
+			
 
 	}
 

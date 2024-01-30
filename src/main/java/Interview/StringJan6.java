@@ -17,15 +17,37 @@ public class StringJan6 {
 	public static void main(String[] args) {
 		
 		
-		
-	
-			String[] strings = new String[2];
-			
-			String str;
-			System.out.println(str);
-			System.out.println(strings);
 
-			
+
+	}
+
+	public static void isomorphicstring() {
+
+		Boolean flag;
+
+		String s1 = "aab", s2 = "xxy";
+
+		if (s1.length() != s2.length()) {
+			System.out.println("The given strings are not Isomorphic");
+
+		} else if (s1.length() == s2.length()) {
+
+			for (int i = 0; i < s1.length() - 1; i++) {
+
+				for (int j = 0; j < s1.length() - 1; j++) {
+
+					if (s1.charAt(i) == s1.charAt(j) && s2.charAt(i) == s2.charAt(j)) {
+
+						flag = true;
+
+					}
+
+				}
+
+			}
+
+			System.out.println("The given strings are Isomorphic");
+		}
 
 	}
 
@@ -113,6 +135,7 @@ public class StringJan6 {
 
 		action.contextClick(ck);
 		action.build().perform();
+		
 
 	}
 
